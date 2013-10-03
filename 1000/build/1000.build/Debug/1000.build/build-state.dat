@@ -1,0 +1,59 @@
+T1000
+v7
+r0
+t402458594.710646
+cCheck dependencies
+cCompileC build/1000.build/Debug/1000.build/Objects-normal/x86_64/main.o /Users/shuoyan/ACM-ICPC/1000/main.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cLd /Users/shuoyan/ACM-ICPC/1000/build/Debug/1000 normal x86_64
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004D5A274300000000000000EE
+t1297753923
+s238
+
+N/Users/shuoyan/ACM-ICPC/1000/build/1000.build/Debug/1000.build/Objects-normal/x86_64/1000.LinkFileList
+c00000000524CD062000000000000005C
+t1380765794
+s92
+
+N/Users/shuoyan/ACM-ICPC/1000/build/1000.build/Debug/1000.build/Objects-normal/x86_64/main.o
+t1380765789
+s69492
+
+N/Users/shuoyan/ACM-ICPC/1000/build/Debug/1000
+t1380765794
+s10560
+
+N/Users/shuoyan/ACM-ICPC/1000/main.cpp
+c00000000524CD05D00000000000000AB
+t1380765789
+s171
+i<iostream>
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies402458594#402458594#0(0"0(0#1#0"8606225024#0"0#
+
+CCompileC build/1000.build/Debug/1000.build/Objects-normal/x86_64/main.o /Users/shuoyan/ACM-ICPC/1000/main.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s402458594.687629
+e402458594.688628
+r1
+xCompileC
+xbuild/1000.build/Debug/1000.build/Objects-normal/x86_64/main.o
+x/Users/shuoyan/ACM-ICPC/1000/main.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@45"Compile /Users/shuoyan/ACM-ICPC/1000/main.cpp402458594#402458594#0(0"0(0#0#37"/Users/shuoyan/ACM-ICPC/1000/main.cpp8619344800#1127"    cd /Users/shuoyan/ACM-ICPC/1000    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/shuoyan/ACM-ICPC/1000/build/1000.build/Debug/1000.build/1000-generated-files.hmap -I/Users/shuoyan/ACM-ICPC/1000/build/1000.build/Debug/1000.build/1000-own-target-headers.hmap -I/Users/shuoyan/ACM-ICPC/1000/build/1000.build/Debug/1000.build/1000-all-target-headers.hmap -iquote /Users/shuoyan/ACM-ICPC/1000/build/1000.build/Debug/1000.build/1000-project-headers.hmap -F/Users/shuoyan/ACM-ICPC/1000/build/Debug -I/Users/shuoyan/ACM-ICPC/1000/build/Debug/include -I/Users/shuoyan/ACM-ICPC/1000/build/1000.build/Debug/1000.build/DerivedSources/x86_64 -I/Users/shuoyan/ACM-ICPC/1000/build/1000.build/Debug/1000.build/DerivedSources -c /Users/shuoyan/ACM-ICPC/1000/main.cpp -o /Users/shuoyan/ACM-ICPC/1000/build/1000.build/Debug/1000.build/Objects-normal/x86_64/main.o0#
+
+CLd /Users/shuoyan/ACM-ICPC/1000/build/Debug/1000 normal x86_64
+s402458594.688687
+e402458594.710597
+r1
+xLd
+x/Users/shuoyan/ACM-ICPC/1000/build/Debug/1000
+xnormal
+xx86_64
+lSLF07#2@50"Link /Users/shuoyan/ACM-ICPC/1000/build/Debug/1000402458594#402458594#0(0"0(0#0#0"8619159648#436"    cd /Users/shuoyan/ACM-ICPC/1000    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/shuoyan/ACM-ICPC/1000/build/Debug -F/Users/shuoyan/ACM-ICPC/1000/build/Debug -filelist /Users/shuoyan/ACM-ICPC/1000/build/1000.build/Debug/1000.build/Objects-normal/x86_64/1000.LinkFileList -mmacosx-version-min=10.6 -o /Users/shuoyan/ACM-ICPC/1000/build/Debug/10000#
+
