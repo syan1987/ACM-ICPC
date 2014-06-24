@@ -14,11 +14,13 @@ double dist(POINT a, POINT b){
     return sqrt(pow(a.x - b.x, 2) + pow(a.y - b.y, 2));
 }
 
+// check angle sin
 double crossProduct(POINT a, POINT b){
     POINT o = {0, 0};
     return ((a.x * b.y) - (a.y * b.x)) / (dist(a, o) * dist(b, o));
 }
 
+// check angle cos
 double dotProduct(POINT a, POINT b){
     POINT o = {0, 0};
     return ((a.x * b.x) + (a.y * b.y)) / (dist(a, o) * dist(b, o));
