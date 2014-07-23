@@ -1,3 +1,4 @@
+// All black ones and jump to the same pos in odds, same as in even pos. So if they are different less than 2, it should be able to be connected together
 #include <iostream>
 using namespace std;
 int main () {
