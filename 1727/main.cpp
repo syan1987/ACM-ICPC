@@ -40,13 +40,14 @@ int main (){
     cin >> cases;
     for (int i=1; i<=cases; i++) {
         data.clear();
-        int x, y, minY = -1000000, maxY = 1000000, result, events, sources;
+        int x, y, minY = -2000010, maxY = 3000000, result, events, sources;
         cin >> events >> sources;
         while(events--) {
             cin >> y >> x;
             maxY = y < maxY ? y : maxY;
             data.push_back(Point(x, y));
         }
+        sort(data.begin(), data.end());
         //Binary search the result
         while(minY <= maxY) {
             int middle = (minY+maxY)/2;
